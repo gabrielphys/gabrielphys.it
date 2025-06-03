@@ -6,11 +6,14 @@
 -->
 <html>
 	<head>
-		<title>Hyperspace by HTML5 UP</title>
+		<title>GabrielPhys - Risorse e Articoli sulla Fisica</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="GabrielPhys: il tuo punto di riferimento per articoli e risorse sulla fisica, dalla meccanica quantistica alla relatività generale.">
+		<meta name="keywords" content="fisica, scienza, meccanica quantistica, relatività, buchi neri, GabrielPhys">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -19,10 +22,10 @@
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
-							<li><a href="#two">What we do</a></li>
-							<li><a href="#three">Get in touch</a></li>
+							<li><a href="#intro">Home</a></li>
+							<li><a href="#one">About me</a></li>
+							<li><a href="#two">Articles</a></li>
+							<li><a href="#three">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -32,177 +35,170 @@
 			<div id="wrapper">
 
 				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
+					<section id="intro" class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
 							<h1>GabrielPhys</h1>
-							<p>Welcome to GabrielPhys! I'm Gabriel, a physics and science enthusiast, and this site is designed for students, researchers and curious people like you. Here you will find articles, resources and tools to delve into the mysteries of the universe.</p>
+							<p>Welcome to GabrielPhys! I'm Gabriel, a physics and science enthusiast, and this site is designed for students, researchers, and curious people like you. Here you will find articles, resources, and tools to delve into the mysteries of the universe.</p>
 							<ul class="actions">
 								<li><a href="#two" class="button big">Explore articles</a></li>
 							</ul>
 						</div>
+						<div class="image">
+							<img src="images/science-bg.jpg" alt="Science Background" />
+						</div>
+						<a href="#one" class="goto-next scrolly">Next</a>
 					</section>
 
 				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
+					<section id="one" class="spotlight style1 bottom">
+						<span class="image fit main"><img src="images/gabriel.jpg" alt="Foto di Gabriel" /></span>
+						<div class="content">
+							<div class="container">
+								<div class="row">
+									<div class="col-4 col-12-medium">
+										<header>
+											<h2>About me</h2>
+											<p>Un appassionato di fisica e scienza</p>
+										</header>
+									</div>
+									<div class="col-4 col-12-medium">
+										<p>Sono Gabriel, un fisico appassionato con anni di esperienza nello studio e nella divulgazione scientifica. Ho creato GabrielPhys per condividere le mie conoscenze su argomenti come la meccanica quantistica, la relatività generale e l'astrofisica.</p>
+									</div>
+									<div class="col-4 col-12-medium">
+										<p>Quando non scrivo articoli, mi trovi a osservare le stelle o a insegnare fisica agli studenti. Contattami per collaborazioni o domande!</p>
+									</div>
 								</div>
 							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
+						</div>
+						<a href="#two" class="goto-next scrolly">Next</a>
 					</section>
 
 				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
+					<section id="two" class="spotlight style2 right">
+						<span class="image fit main"><img src="images/quantum.jpg" alt="Meccanica quantistica" /></span>
+						<div class="content">
+							<header>
+								<h2>Articles</h2>
+								<p>Esplora i miei articoli sulla fisica e la scienza</p>
+							</header>
+							<div id="article-list"></div>
+							<div style="margin-top: 2rem;">
+								<h3>Dati Sperimentali: Velocità di Particelle</h3>
+								<canvas id="particleChart" width="400" height="200"></canvas>
 							</div>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
+							<script>
+								const ctx = document.getElementById('particleChart').getContext('2d');
+								new Chart(ctx, {
+									type: 'line',
+									data: {
+										labels: ['T1', 'T2', 'T3', 'T4', 'T5'],
+										datasets: [{
+											label: 'Velocità (m/s)',
+											data: [12, 19, 3, 5, 2],
+											borderColor: '#007BFF',
+											fill: false
+										}]
+									},
+									options: {
+										scales: {
+											y: {
+												beginAtZero: true,
+												title: {
+													display: true,
+													text: 'Velocità (m/s)'
+												}
+											},
+											x: {
+												title: {
+													display: true,
+													text: 'Tempo'
+												}
+											}
+										}
+									}
+								});
+							</script>
 						</div>
+						<a href="#three" class="goto-next scrolly">Next</a>
 					</section>
 
 				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
+					<section id="three">
 						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
+							<header class="major">
+								<h2>Contact</h2>
+							</header>
+							<p>Scrivimi per collaborazioni, domande o suggerimenti!</p>
+							<div class="row">
+								<div class="col-6 col-12-medium">
+									<form method="post" action="https://formspree.io/tuo-email@example.com">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
+												<input type="text" name="name" id="name" required />
 											</div>
 											<div class="field half">
 												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
+												<input type="email" name="email" id="email" required />
 											</div>
 											<div class="field">
 												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
+												<textarea name="message" id="message" rows="4" required></textarea>
 											</div>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Clear" /></li>
 										</ul>
 									</form>
-								</section>
-								<section>
-									<ul class="contact">
+								</div>
+								<div class="col-6 col-12-medium">
+									<ul class="labeled-icons">
 										<li>
-											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
+											<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+											<a href="mailto:tuo-email@example.com">tuo-email@example.com</a>
 										</li>
 										<li>
-											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
+											<h3 class="icon brands fa-twitter"><span class="label">Twitter</span></h3>
+											<a href="#">Twitter</a>
 										</li>
 										<li>
-											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
+											<h3 class="icon brands fa-facebook-f"><span class="label">Facebook</span></h3>
+											<a href="#">Facebook</a>
 										</li>
 										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
+											<h3 class="icon brands fa-github"><span class="label">GitHub</span></h3>
+											<a href="#">GitHub</a>
+										</li>
+										<li>
+											<h3 class="icon brands fa-instagram"><span class="label">Instagram</span></h3>
+											<a href="#">Instagram</a>
 										</li>
 									</ul>
-								</section>
+								</div>
 							</div>
+						</div>
+						<a href="#four" class="goto-next scrolly">Next</a>
+					</section>
+
+				<!-- Four -->
+					<section id="four">
+						<div class="inner">
+							<p class="copyright">© GabrielPhys 2025. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 						</div>
 					</section>
 
 			</div>
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/articles.js"></script>
 
 	</body>
 </html>
